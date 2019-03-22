@@ -1,0 +1,14 @@
+{
+  "name": "j5-restart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "DEBUG=j5 nodemon index.js"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.10",
+    "serialport": "^7.1.4",
+    "usb-detection": "^4.1.0"
+  }
+}
